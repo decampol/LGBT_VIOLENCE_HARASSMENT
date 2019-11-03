@@ -37,7 +37,17 @@
         install.packages("ggplot2")
         install.packages("shinythemes")
 
+## Installation des packages Python :
+
+    Lignes de code : 
+        
+        pip install folium
+        OU
+        conda install -c conda-forge folium
+    
 ## Script :
 
-Il suffira simplement d'ouvrir le fichier app.R avec RStudio et d'appuyer sur la touche "Run App" pour excécuter le fichier.
+R : Il suffira simplement d'ouvrir le fichier app.R avec RStudio et d'appuyer sur la touche "Run App" pour excécuter le fichier.
+
+Pyhton : Executer à l'aide de "python Dashboard.py".
 
