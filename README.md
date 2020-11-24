@@ -2,33 +2,33 @@
 
 ## Description :
 
-  Ce projet a pour but, avec l'aide de deux dahsboard (faits avec les langages Python et R), d'exposer les violences et harcèlements subits par la communauté LGBT (Lesbienne, Gay, Bisexuelle et Transgenre). De plus, il sera aussi question d'analyse et interprétations des graphes obtenus, débouchant sur une meilleure compréhension des possibles craintes et agressions subits par une communauté victime de dynamiques homophobes et/ou transphobes systémiques.
+  This project aims at, with help of two dahsboards (created with Python and R), exhibiting violences and harassment the LGBT (Lesbian, Gay, Bixesual and Transgender) community is going through. In addition, analysis and interpretation of obtained graphs are provided, leading to a better comprehension on the possible fears and assaults that victims of systemic homophobia and/or transphobia suffer from.
   
-  Le travail s'appuie sur deux sondages auprès de LGBT volontaires en Europe, constituant nos jeux de données :
+  This project leans on two surveys directed to European LGBT volonteers, and forms our data sets :
   
-            - un concernant leur vie quotidienne, et un autre concernant les violences (sexuelles ou non) et harcèlements qu'ils peuvent subir (Pyhton -> Dash)
-            - seulement le jeu de donné des violences et harcèlements subits (R -> Shiny)
+            - one about their daily life, and another one regarding the assaults (sexual or non sexual) and harassments they can suffer (Pyhton -> Dash)
+            - only the data set about violences and harassments (R -> Shiny)
 
-## Données utilisées :
+## Used data :
 
 1/ "LGBT_Survey_DailyLife.csv" 
 
-    Ce jeu brut de données est de taille 34021*6
-    Les 6 variables sont :
-            - Le pays (CountryCode) -> pays Européens
-            - Le sous-groupe de la communoté LGBT (subset) -> Lesbienne, Gay, Femme Bisexuelle, etc...
-            - Le code de la question (question_code)
-            - La question écrite (question_label)
-            - La réponse (answer)
+    This raw data set is of size 34021*6.
+    The 6 variables are :
+            - The country (CountryCode) -> European countries
+            - The LGBT community's subset (subset) -> Lesbian, Gay, Bisexual Woman, etc...
+            - The question code (question_code)
+            - The written question (question_label)
+            - The answer (answer)
 
 2/ "LGBT_Survey_ViolenceAndHarassment.csv" (renommé "LGBT_Survey")
     
-    Ce jeu brut de données est de taille 45356*6
-    Les 6 variables sont les mêmes que pour le premier jeu de données
+    This raw data set is of size 45356*6.
+    The 6 variables are the same as for the first data set.
 
-## Installation des packages R :
+## R packages setup :
 
-    Lignes de code : 
+    Code : 
         
         install.packages("shiny")
         install.packages("dplyr")
@@ -37,17 +37,17 @@
         install.packages("ggplot2")
         install.packages("shinythemes")
 
-## Installation des packages Python :
+## Python packages setup :
 
-    Lignes de code : 
+    Code : 
         
         pip install folium
-        OU
+        OR
         conda install -c conda-forge folium
     
 ## Script :
 
-R : Il suffira simplement d'ouvrir le fichier app.R avec RStudio et d'appuyer sur la touche "Run App" pour excécuter le fichier.
+R : Simply open the app.R file with RStudio and then "Run App" for its execution.
 
-Pyhton : Executer à l'aide de "python Dashboard.py".
+Pyhton : Run with the command "python Dashboard.py".
 
